@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="270" viewBox="0 0 1280 270" role="img" aria-labelledby="title desc">
+  <title id="title">Charan Neelam</title>
+  <desc id="desc">Agentic AI, Generative AI, and Python systems. Retrieval, controlled tools, and evaluated workflows.</desc>
+  <rect width="1280" height="270" rx="12" fill="#102d3a"/>
+  <rect x="48" y="46" width="5" height="175" rx="2" fill="#8dc4a4"/>
+  <text x="82" y="88" fill="#9ac8ba" font-family="ui-monospace,Consolas,monospace" font-size="13" letter-spacing="3">AI / ML ENGINEERING</text>
+  <text x="78" y="157" fill="#f4f4e9" font-family="Georgia,serif" font-size="58">Charan Neelam</text>
+  <text x="82" y="204" fill="#d3e2dc" font-family="Arial,sans-serif" font-size="23">Agentic AI · Generative AI · Python systems</text>
+  <g fill="none" stroke="#31545c" stroke-width="2">
+    <path d="M930 89h192M930 135h192M930 181h192"/>
+    <path d="M956 89v92M1040 89v92M1122 89v92"/>
+    <circle cx="956" cy="89" r="10" fill="#102d3a"/>
+    <circle cx="1040" cy="135" r="10" fill="#102d3a"/>
+    <circle cx="1122" cy="181" r="10" fill="#102d3a"/>
+  </g>
+  <g fill="#8dc4a4"><circle cx="956" cy="89" r="4"/><circle cx="1040" cy="135" r="4"/><circle cx="1122" cy="181" r="4"/></g>
+</svg>
