@@ -1,7 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 236" width="1000" height="236" role="img" aria-label="Charan Neelam. AI engineer. Python services, retrieval and agent workflows.">
 <rect width="1000" height="236" rx="12" fill="#172b36"/>
+<style>
+  .workflow { animation: drift 7s ease-in-out infinite; }
+  .signal { animation: glide 5s ease-in-out infinite; }
+  @keyframes drift { 0%,100% { transform: translateY(4px); } 50% { transform: translateY(-7px); } }
+  @keyframes glide { 0% { transform: translateX(0); opacity: 0; } 15%,80% { opacity: 1; } 100% { transform: translateX(168px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .workflow, .signal { animation: none; } .signal { opacity: 0; } }
+</style>
+<g class="workflow">
 <g fill="none" stroke="#537886" stroke-width="2"><path d="M658 120h55l48-56h75l55 56h65M713 120l48 56h75l55-56"/><path d="M713 120h178" stroke-dasharray="3 8"/></g>
 <g fill="#172b36" stroke="#7bc5bd" stroke-width="3"><circle cx="658" cy="120" r="6"/><circle cx="713" cy="120" r="9"/><circle cx="761" cy="64" r="6"/><circle cx="836" cy="64" r="6"/><circle cx="761" cy="176" r="6"/><circle cx="836" cy="176" r="6"/><circle cx="891" cy="120" r="9"/></g><circle cx="956" cy="120" r="6" fill="#f2bc75"/>
-<text x="42" y="59" fill="#9cd5ca" font-size="20" font-family="Arial,sans-serif" letter-spacing="3">AI ENGINEER</text>
+<circle class="signal" cx="718" cy="120" r="4" fill="#f2bc75"/></g><text x="42" y="59" fill="#9cd5ca" font-size="20" font-family="Arial,sans-serif" letter-spacing="3">AI ENGINEER</text>
 <text x="38" y="137" fill="#fff8e9" font-size="72" font-family="Georgia,serif">Charan Neelam</text>
 <text x="43" y="188" fill="#e0e8e7" font-size="24" font-family="Arial,sans-serif">Python services, retrieval and agent workflows</text></svg>
