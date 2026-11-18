@@ -1,56 +1,20 @@
-<img src="assets/profile-header.svg" alt="Charan Neelam — Agentic AI, Generative AI, and Python systems" width="100%">
+<img src="assets/profile-header.svg" alt="Charan Neelam, AI engineer" width="100%">
 
-I work on agentic workflows, retrieval-backed applications, and Python APIs. My
-projects make tool calls and evidence visible, with tests you can run and demos
-you can try.
+I build Python services for AI applications at Capital One. My independent work explores two questions I run into when building agents. When should a tool call pause for human review? How do you tell whether a model cited the right evidence?
 
-[LinkedIn](https://www.linkedin.com/in/charanneelam) · [Try the agent platform](https://enterprise-agentic-platform-s0cj.onrender.com) · [Browse repositories](https://github.com/charanneelam123-dot?tab=repositories)
+[Portfolio and demos](https://charanneelam123-dot.github.io/) · [LinkedIn](https://www.linkedin.com/in/charanneelam/)
 
-## Selected AI projects
+## Selected work
 
-| Project | What to inspect | Demo |
-| --- | --- | --- |
-| **[Enterprise Agentic AI Platform](https://github.com/charanneelam123-dot/enterprise-agentic-platform)** | Ten LangGraph workflows, saved checkpoints, controlled tools, and a human review step. | [Open app](https://enterprise-agentic-platform-s0cj.onrender.com) |
-| **[Financial Document Intelligence](https://github.com/charanneelam123-dot/financial-document-intelligence)** | Company/year filters, lexical vector retrieval, reranking, and source-checked answer quotes. | [Open app](https://financial-document-intelligence-o3k2.onrender.com) |
-| **[LLM Evaluation & MLOps](https://github.com/charanneelam123-dot/llm-evaluation-mlops)** | Versioned cases, per-answer failures, MLflow tracking, token usage, and request metrics. | [Open app](https://llm-evaluation-mlops.onrender.com) |
-| **[Real-Time Fraud Detection](https://github.com/charanneelam123-dot/realtime-fraud-detection)** | XGBoost scoring, chronological holdouts, rolling account features, and retry-safe ingestion. | [Open app](https://realtime-fraud-detection-iosi.onrender.com) |
+**[Incident Room](https://github.com/charanneelam123-dot/incident-room)**  
+An incident investigation tool for simulated outages. Follow an investigation through logs, telemetry, and runbooks, then review the evidence before approving a sandbox action.
 
-Start with the **agent platform** to follow a request from policy lookup to a
-reviewer decision. Each repository includes an architecture diagram, API
-documentation, a screenshot, and validation notes.
+**[Agent workflows with LangGraph](https://github.com/charanneelam123-dot/enterprise-agentic-platform)**  
+Ten workflows save progress and pause for review. Try approving the same request twice to see how the service handles duplicate decisions. [Open the demo](https://enterprise-agentic-platform-s0cj.onrender.com)
 
-The four deployed apps have **32 automated tests**, plus Docker build and cloud
-API checks. They use synthetic data. Default examples work without a model key;
-optional live modes require server-side credentials. The evaluation app separates
-authored fixture results from live-model measurements.
+**[Evaluating citations with Llama 3.2](https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation)**  
+I tested two prompts on 40 synthetic cases using Ollama. Both passed the answer check on 35 cases. Requiring a correct citation dropped the baseline to 17 passes and the longer prompt to 10. The repository includes all 80 responses and the scoring rules.
 
-## Two focused case studies
+## More projects
 
-**[Incident Room](https://github.com/charanneelam123-dot/incident-room)** investigates
-simulated store outages. The agent can inspect telemetry and logs, search
-runbooks, and propose an allowed sandbox action. The report checks its source
-references, and an operator decides what to approve.
-
-**[What changed?](https://github.com/charanneelam123-dot/what-changed)** compares
-agreement versions. It tracks edited, moved, added, and removed clauses, calculates
-simple price differences, and checks source quotes in optional model explanations.
-
-## Tools I use
-
-| Area | Tools |
-| --- | --- |
-| Agent workflows and retrieval | LangGraph, LangChain, tool calling, RAG, vector search |
-| Backend systems | Python, SQL, FastAPI, SQLite, PostgreSQL |
-| Evaluation and operations | MLflow, Prometheus, OpenTelemetry, Docker, GitHub Actions |
-| Data and ML | PySpark, Kafka, Delta Lake, dbt, XGBoost |
-
-## Data engineering background
-
-My earlier projects cover the systems that feed AI applications:
-[lakehouse pipelines](https://github.com/charanneelam123-dot/medallion-lakehouse-pipeline),
-[Kafka/Spark streaming](https://github.com/charanneelam123-dot/realtime-kafka-spark-streaming),
-[dbt/Snowflake modeling](https://github.com/charanneelam123-dot/dbt-snowflake-analytics-platform),
-and [data quality checks](https://github.com/charanneelam123-dot/data-quality-monitoring-framework).
-
-M.S. Computer Science, University of South Dakota. Interested in Agentic AI,
-Generative AI, and AI/ML engineering roles.
+[Financial document search](https://github.com/charanneelam123-dot/financial-document-intelligence) · [Agreement comparison](https://github.com/charanneelam123-dot/what-changed) · [Fraud scoring](https://github.com/charanneelam123-dot/realtime-fraud-detection) · [Kafka and Spark pipelines](https://github.com/charanneelam123-dot/realtime-kafka-spark-streaming)
