@@ -1,20 +1,20 @@
-<a href="https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation"><img src="assets/profile-header.svg" alt="Charan Neelam, AI engineer. Two prompts each answered 35 of 40 cases correctly. Of those, 17 baseline answers and 10 longer-prompt answers also cited the right evidence. Open the experiment." width="100%"></a>
+<img src="assets/profile-header.svg" width="100%" alt="Charan Neelam, AI engineer working on Python services, retrieval and agent workflows.">
 
-I build Python services for retrieval and agent workflows at Capital One. In my own projects, I work on the parts people need to inspect: the passage behind an answer, the tool an agent called, and the action a reviewer approved.
+I build Python services for AI applications at Capital One. These are my independent projects.
 
-[Explore my portfolio](https://charanneelam123-dot.github.io/) · [Inspect the experiment](https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation) · [LinkedIn](https://www.linkedin.com/in/charanneelam/)
+[Portfolio](https://charanneelam123-dot.github.io/) · [LinkedIn](https://www.linkedin.com/in/charanneelam/) · [All repositories](https://github.com/charanneelam123-dot?tab=repositories)
 
-## Selected work
+## Inside two agent workflows
 
-**[Incident Room](https://github.com/charanneelam123-dot/incident-room)**  
-An incident investigation tool for simulated outages. Follow an investigation through logs, telemetry, and runbooks, then review the evidence before approving a sandbox action.
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/charanneelam123-dot/incident-room"><img src="assets/incident-room.png" width="100%" alt="Incident Room interface for investigating a simulated outage"></a><h3>Incident Room</h3><p>Follow a simulated outage from the first log entry to the operator’s approval. Each finding links back to its evidence.</p><a href="https://github.com/charanneelam123-dot/incident-room">Explore the investigation →</a></td>
+<td width="50%" valign="top"><a href="https://enterprise-agentic-platform-s0cj.onrender.com"><img src="assets/enterprise-agentic-platform.png" width="100%" alt="Enterprise Agentic AI Platform demo interface"></a><h3>Agent workflow platform</h3><p>Run a LangGraph workflow, pause it for review, and see what happens when the same decision arrives twice.</p><a href="https://enterprise-agentic-platform-s0cj.onrender.com">Try the live demo →</a></td>
+</tr>
+</table>
 
-**[Agent workflows with LangGraph](https://github.com/charanneelam123-dot/enterprise-agentic-platform)**  
-Ten workflows save progress and pause for review. Try approving the same request twice to see how the service handles duplicate decisions. [Open the demo](https://enterprise-agentic-platform-s0cj.onrender.com)
+## Can the model cite its answer?
 
-**[Evaluating citations with Llama 3.2](https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation)**  
-Open the raw responses to see where a correct answer lost credit for its citation. I published the scoring rules alongside all 80 outputs from the local Ollama run.
+I compared two prompts on 40 synthetic cases with Llama 3.2. Both answered 35 correctly. When I also required the right citation, the baseline passed 17 cases and the longer prompt passed 10. [Inspect the 80 responses and scoring rules →](https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation)
 
-## More projects
-
-[Financial document search](https://github.com/charanneelam123-dot/financial-document-intelligence) · [Agreement comparison](https://github.com/charanneelam123-dot/what-changed) · [Fraud scoring](https://github.com/charanneelam123-dot/realtime-fraud-detection) · [Kafka and Spark pipelines](https://github.com/charanneelam123-dot/realtime-kafka-spark-streaming)
+[Financial document search](https://github.com/charanneelam123-dot/financial-document-intelligence) · [Agreement comparison](https://github.com/charanneelam123-dot/what-changed) · [Fraud scoring](https://github.com/charanneelam123-dot/realtime-fraud-detection)
