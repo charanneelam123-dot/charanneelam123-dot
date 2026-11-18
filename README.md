@@ -1,8 +1,8 @@
-<img src="assets/profile-header.svg" alt="Charan Neelam, AI engineer" width="100%">
+<a href="https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation"><img src="assets/profile-header.svg" alt="Charan Neelam, AI engineer. Two prompts each answered 35 of 40 cases correctly. Of those, 17 baseline answers and 10 longer-prompt answers also cited the right evidence. Open the experiment." width="100%"></a>
 
-I build Python services for AI applications at Capital One. My independent work explores two questions I run into when building agents. When should a tool call pause for human review? How do you tell whether a model cited the right evidence?
+I build Python services for retrieval and agent workflows at Capital One. In my own projects, I work on the parts people need to inspect: the passage behind an answer, the tool an agent called, and the action a reviewer approved.
 
-[Portfolio and demos](https://charanneelam123-dot.github.io/) · [LinkedIn](https://www.linkedin.com/in/charanneelam/)
+[Explore my portfolio](https://charanneelam123-dot.github.io/) · [Inspect the experiment](https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation) · [LinkedIn](https://www.linkedin.com/in/charanneelam/)
 
 ## Selected work
 
@@ -13,7 +13,7 @@ An incident investigation tool for simulated outages. Follow an investigation th
 Ten workflows save progress and pause for review. Try approving the same request twice to see how the service handles duplicate decisions. [Open the demo](https://enterprise-agentic-platform-s0cj.onrender.com)
 
 **[Evaluating citations with Llama 3.2](https://github.com/charanneelam123-dot/llm-evaluation-mlops/tree/main/docs/real-model-evaluation)**  
-I tested two prompts on 40 synthetic cases using Ollama. Both passed the answer check on 35 cases. Requiring a correct citation dropped the baseline to 17 passes and the longer prompt to 10. The repository includes all 80 responses and the scoring rules.
+Open the raw responses to see where a correct answer lost credit for its citation. I published the scoring rules alongside all 80 outputs from the local Ollama run.
 
 ## More projects
 
