@@ -1,6 +1,8 @@
 <img src="assets/profile-header.svg" width="100%" alt="Charan Neelam, AI engineer working on Python services, retrieval and agent workflows.">
 
-I build Python services for AI applications at Capital One. These are my independent projects.
+I'm an AI/ML engineer at Capital One. I build Python and FastAPI services for retrieval-augmented generation (RAG) and use LangGraph to coordinate agents and their tools. My work includes retrieval over 100,000+ documents and reducing API and inference latency from 450 ms to 180 ms.
+
+In my independent projects below, you can trace an agent’s decisions, inspect the evidence behind an answer, and compare how different prompts perform on the same cases.
 
 [Portfolio](https://charanneelam123-dot.github.io/) · [LinkedIn](https://www.linkedin.com/in/charanneelam/) · [All repositories](https://github.com/charanneelam123-dot?tab=repositories)
 
